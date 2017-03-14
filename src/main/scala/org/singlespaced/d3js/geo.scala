@@ -159,7 +159,7 @@ trait ClipExtent extends Transform {
   def extent(extent: js.Tuple2[js.Tuple2[Double, Double], js.Tuple2[Double, Double]]): ClipExtent = js.native
 }
 
-  @JSName("d3.geo.azimuthalEqualArea")
+  @JSGlobal("d3.geo.azimuthalEqualArea")
   @js.native
 object azimuthalEqualArea_ extends js.Object {
     def raw(lambda: Double, phi: Double): js.Tuple2[Double, Double] = js.native
@@ -172,7 +172,7 @@ object raw extends js.Object {
 
 }
 
-  @JSName("d3.geo.azimuthalEquidistant")
+  @JSGlobal("d3.geo.azimuthalEquidistant")
   @js.native
 object azimuthalEquidistant_ extends js.Object {
 
@@ -186,26 +186,26 @@ object raw extends js.Object {
 }
 
 
-@JSName("d3.geo.conicConformal")
+@JSGlobal("d3.geo.conicConformal")
 @js.native
 object conicConformal_ extends js.Object {
   def raw(phi0: Double, phi1: Double): RawInvertibleProjection = js.native
 }
 
-@JSName("d3.geo.conicEqualArea")
+@JSGlobal("d3.geo.conicEqualArea")
 @js.native
 object conicEqualArea_ extends js.Object {
   def raw(phi0: Double, phi1: Double): RawInvertibleProjection = js.native
 }
 
-@JSName("d3.geo.conicEquidistant")
+@JSGlobal("d3.geo.conicEquidistant")
 @js.native
 object conicEquidistant_ extends js.Object {
   def raw(phi0: Double, phi1: Double): RawInvertibleProjection = js.native
 }
 
 
-@JSName("d3.geo.equirectangular")
+@JSGlobal("d3.geo.equirectangular")
 @js.native
 object equirectangular_ extends js.Object {
   def raw(lambda: Double, phi: Double): js.Tuple2[Double, Double] = js.native
@@ -217,7 +217,7 @@ object equirectangular_ extends js.Object {
 }
 
 
-@JSName("d3.geo.gnomonic")
+@JSGlobal("d3.geo.gnomonic")
 @js.native
 object gnomonic_ extends js.Object {
 
@@ -231,7 +231,7 @@ object gnomonic_ extends js.Object {
 }
 
 
-@JSName("d3.geo.mercator")
+@JSGlobal("d3.geo.mercator")
 @js.native
 object mercator_ extends js.Object {
   def raw(lambda: Double, phi: Double): js.Tuple2[Double, Double] = js.native
@@ -244,7 +244,7 @@ object mercator_ extends js.Object {
   }
 
 
-@JSName("d3.geo.orthographic")
+@JSGlobal("d3.geo.orthographic")
 @js.native
 object orthographic_ extends js.Object {
   def raw(lambda: Double, phi: Double): js.Tuple2[Double, Double] = js.native
@@ -257,7 +257,7 @@ object orthographic_ extends js.Object {
 }
 
 
-@JSName("d3.geo.stereographic")
+@JSGlobal("d3.geo.stereographic")
 @js.native
 object stereographic_ extends js.Object {
   def raw(lambda: Double, phi: Double): js.Tuple2[Double, Double] = js.native
@@ -270,7 +270,7 @@ object stereographic_ extends js.Object {
 }
 
 
-@JSName("d3.geo.transverseMercator")
+@JSGlobal("d3.geo.transverseMercator")
 @js.native
 object transverseMercator_ extends js.Object {
   def raw(lambda: Double, phi: Double): js.Tuple2[Double, Double] = js.native

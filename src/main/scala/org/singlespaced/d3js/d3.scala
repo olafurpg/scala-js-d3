@@ -8,7 +8,7 @@ import scala.scalajs.js.`|`
 import scala.scalajs.js.annotation.JSName
 
 
-@JSName("d3")
+@JSGlobal("d3")
 @js.native
 object d3 extends js.Object  {
 

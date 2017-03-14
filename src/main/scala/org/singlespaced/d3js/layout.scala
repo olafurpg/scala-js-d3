@@ -482,7 +482,7 @@ trait Tree[Node] extends BaseHierarchy[Node,Tree[Node]] {
 
 }
 
-@JSName("d3.layout.treemap")
+@JSGlobal("d3.layout.treemap")
 @js.native
 object treemapObject extends js.Object {
   type Padding = Double | js.Tuple4[Double, Double, Double, Double]
